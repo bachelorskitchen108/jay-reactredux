@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Counter from './features/counter/Counter';
 
 const App = () => {
   return (
-    <div>
-      <h1>React Redux App</h1>
-    </div>
+    <main className='App'>
+      <h6>React Redux App</h6>
+      <hr />
+      <hr />
+      <Counter />
+    </main>
   )
 }
 
